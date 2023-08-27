@@ -1,0 +1,90 @@
+body{
+    width: auto;
+    height: 705px;
+    background-image: linear-gradient(black, grey, white);
+}
+
+.slideshow-container{
+    width: 750px;
+    height: auto;
+    margin: 150px auto;
+    position: relative;
+    box-shadow: 5px 5px 10px 2px rgba(0,0,0,.8);
+    
+}
+
+#photo{
+    width: 100%;
+    height: auto;
+
+}
+
+
+
+.fa-angle-left{
+    position: absolute;
+    left: -60px;
+    top: 250px;
+    font-size: 80px;
+    cursor: pointer;
+}
+
+
+.fa-angle-right{
+    position: absolute;
+    right: -60px;
+    top: 250px;
+    font-size: 80px;
+    cursor: pointer;
+}
+
+.fa-angle-left:hover{
+    color: white;
+}
+
+.fa-angle-right:hover{
+    color: white;
+}
+
+.gray-container{
+    width: 750px;
+    height: 100px;
+    background-color: black;
+    opacity: 0.5;
+    position: absolute;
+    top: 400px;
+}
+
+h1, p{
+    color: white;
+}
+
+#thumbnails{
+    display: flex;   
+}
+
+.thumbnail img{
+    width: 66px;
+    height: 66px;
+    margin: 5px 14px 5px 14px;
+    cursor: pointer;
+}
+
+.thumbnail img:hover{
+    border: 2px solid white;
+}
+
+h1{
+    font-family: 'Archivo Black', sans-serif;
+    padding-left: 50px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+p{
+    font-family: 'Nunito Sans', sans-serif;
+    padding-left: 50px;
+    font-size: 20px;
+    position: absolute;
+    top: 40px;
+}
